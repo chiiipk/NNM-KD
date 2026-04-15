@@ -1,2 +1,1 @@
-
 from .default import CFG, SYSTEM_PROMPT, QWEN_CHAT_TEMPLATE, SEED
