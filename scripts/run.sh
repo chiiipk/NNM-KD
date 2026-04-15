@@ -60,7 +60,7 @@ echo "[setup] Python: $($PYTHON --version)"
 
 # ── 4. Dependency install (idempotent) ───────────────────────
 echo "[setup] Installing / verifying requirements..."
-$PYTHON -m pip install --quiet -r "${SCRIPT_DIR}/requirements.txt"
+# $PYTHON -m pip install --quiet -r "${SCRIPT_DIR}/requirements.txt"
 
 # Verify GPU availability
 $PYTHON - <<'EOF'
